@@ -10,7 +10,7 @@ public class StaplesInterview {
                 LocalDate.parse("2024-03-15"),
                 LocalDate.parse("2024-03-13"),
                 LocalDate.parse("2024-03-31")));
-        System.out.println(findClosestDate(LocalDate.parse("2024-03-12"),localDates));
+        System.out.println(findClosestDate(LocalDate.parse("2024-03-14"),localDates));
     }
 
     private static LocalDate findClosestDate(LocalDate inputDate , List<LocalDate> localDates){
